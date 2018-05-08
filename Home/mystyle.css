@@ -1,5 +1,128 @@
-#headshot {
-    height: 60%;
-    width: 60%;
-    margin-left: 20%;
+* {
+    font-family:    'Open Sans','Roboto', sans-serif;
+    margin:         0;
 }
+
+html,body {
+    height: 100%;
+    width:  100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    padding-top:    0;
+    padding-bottom: 0;
+}
+
+p {font-size:  130%;}
+
+h1,h2,h3,h4,h5,h6 {font-size:  225%;}
+
+.section {
+    height:                 100%;
+    width:                  100%;
+    background-color:       #c9d8c5;
+    background-size:        cover;
+    background-repeat:      no-repeat;
+    background-attachment:  fixed;
+}
+
+.section-one {background-image:    url("../Images/IMG_1819-25.jpg");}
+
+.section-two {background-image:    url("../Images/IMG_1820-26.jpg");}
+
+.section-three {background-image:  url("../Images/IMG_1793-1.jpg");}
+
+.sub-section,.sub-section-span,.sub-section-third,.sub-section-fourth {
+    height:             50%;
+    width:              50%;
+    background-color:   #c9d8c5;
+    align-items:        center;
+    display:            flex;
+    flex-wrap:          wrap;
+    float:              left;
+    text-align:         center;
+}
+
+.height-50 {height: 50%;}
+
+.height-150 {height: 150%;}
+
+.height-200 {height: 200%;}
+
+.sub-section-span {width: 100%;}
+
+.sub-section-third {width: 33.3333%;}
+
+.sub-section-fourth {width: 24.9999%;}
+
+.bg-one {background-color: rgb(201,216,197,0.7);}
+
+.bg-two {background-color: rgb(237,217,192,0.7);}
+
+.bg-three {background-color: rgb(168,182,191,0.7);}
+
+#download {justify-content: center;}
+
+.btn {
+    background-color:   transparent;
+    color:              black;
+    text-decoration:    none;
+    padding:            1%;
+    font-size:          200%;
+}
+
+.btn:hover {
+    border:               2px;
+    background:           black;
+    color:                #f2f2f2;            
+    transition:           background 1.5s;
+}
+
+.sub-section p {
+    text-align:     justify;
+    padding-left:   8%;
+    padding-right:  8%;
+}
+
+.sub-section h1 {
+    padding-left:   8%;
+    text-align:     left;
+}
+
+.navbar {
+    position:       fixed;  
+    z-index:        99;
+    padding-left:   3%;
+}
+
+.navbar a {
+    text-decoration:    none;
+    float:              left;
+    color:              #f2f2f2;
+    border:             5px;
+    padding:            14px 16px;
+    font-size:          125%;
+}
+
+.navbar a:hover {
+    /*background-color:   #edd9c0;*/
+    color:              #000000;
+    -webkit-transition: color 1.5s;
+}
+
+form input {
+    width:          85%;
+    padding:        1% 1%;
+    margin-left:    5%;
+    margin-right:   5%;
+    margin-bottom:  1%;
+    font-size:      110%;
+}
+
+form label {
+    float:          left;
+    margin-left:    6%;
+    font-size:      110%;
+}
+
+.standard-margin-left {margin-left:    8%;}
