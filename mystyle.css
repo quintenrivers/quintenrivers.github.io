@@ -27,17 +27,17 @@ h1,h2,h3,h4,h5,h6 {font-size:  225%;}
 }
 
 .section-one {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Images/IMG_1819-25.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/Images/IMG_1819-25.jpg");
 }
 
 .section-two {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url("../Images/IMG_1820-26.jpg");
+    url("/Images/IMG_1820-26.jpg");
 }
 
 .section-three {
     background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url("../Images/IMG_1793-1.jpg");
+    url("/Images/IMG_1793-1.jpg");
 }
 
 .sub-section,.sub-section-span,.sub-section-third,.sub-section-fourth {
