@@ -147,14 +147,22 @@ form label {
 #home {
     font-size:      600%;
     color:          rgba(255,255,255,0.5);
-    padding-top:    42%;
+    padding-top:    25%;
     text-transform: uppercase;
     text-align:     center;
+    animation-name:     fade-in;
+    animation-duration: 10s;
+    
+}
+
+@keyframes fade-in {
+    from {opacity:  0;}
+    to   {opacity:  0.5;}
 }
 
 .about-me {
-    padding-top:  36%;
-    font-size:    950%;
+    padding-top:        36%;
+    font-size:          950%;
 }
 
 .contact {
