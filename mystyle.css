@@ -134,37 +134,44 @@ form label {
     width:          100%;
     margin-left:    0;
     margin-top:     0;
+    text-align:     center;
 }
 
 .hero h1 {
     color:          rgba(255,255,255,0.5);
-    font-size:      2000%;
     text-transform: uppercase;
     text-align:     center;
-    padding-top:     0%;
+    font-size:      950%;
 }
 
 #home {
-    font-size:      1100%;
+    font-size:      600%;
     color:          rgba(255,255,255,0.5);
-    padding-top:    34%;
+    padding-top:    42%;
     text-transform: uppercase;
     text-align:     center;
 }
 
-#about-me {
-    padding-top:  28%;
-    font-size:    1750%;
+.about-me {
+    padding-top:  36%;
+    font-size:    950%;
 }
 
-#contact {
-    font-size:      1900%;
-    padding-top:    26%;
+.contact {
+    padding-top:    37%;
+    text-transform: uppercase;
+    color:          rgba(255,255,255,0.5);
+    font-size:      950%;
+    text-align:     center;
 }
 
 .button {
-    margin-top:     21%;
-    margin-left:    46%;
+    margin-top:     1%;
+    margin-left:    0;
+}
+
+.resume {
+    padding-top:    29%;
 }
 
 .btn {
@@ -192,4 +199,9 @@ form label {
 .icon-transparent:hover {
     opacity:            1;
     -webkit-transition:  opacity 1.5s;
+}
+
+#github {
+    height:     70%;
+    width:      70%;
 }
