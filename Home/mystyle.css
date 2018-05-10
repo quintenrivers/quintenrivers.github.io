@@ -26,11 +26,19 @@ h1,h2,h3,h4,h5,h6 {font-size:  225%;}
     background-attachment:  fixed;
 }
 
-.section-one {background-image:    url("../Images/IMG_1819-25.jpg");}
+.section-one {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Images/IMG_1819-25.jpg");
+}
 
-.section-two {background-image:    url("../Images/IMG_1820-26.jpg");}
+.section-two {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("../Images/IMG_1820-26.jpg");
+}
 
-.section-three {background-image:  url("../Images/IMG_1793-1.jpg");}
+.section-three {
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("../Images/IMG_1793-1.jpg");
+}
 
 .sub-section,.sub-section-span,.sub-section-third,.sub-section-fourth {
     height:             50%;
@@ -63,21 +71,6 @@ h1,h2,h3,h4,h5,h6 {font-size:  225%;}
 
 #download {justify-content: center;}
 
-.btn {
-    background-color:   transparent;
-    color:              black;
-    text-decoration:    none;
-    padding:            1%;
-    font-size:          200%;
-}
-
-.btn:hover {
-    border:               2px;
-    background:           black;
-    color:                #f2f2f2;            
-    transition:           background 1.5s;
-}
-
 .sub-section p {
     text-align:     justify;
     padding-left:   8%;
@@ -96,9 +89,11 @@ h1,h2,h3,h4,h5,h6 {font-size:  225%;}
 }
 
 .navbar a {
+    margin-top:         1%;
     text-decoration:    none;
     float:              left;
-    color:              #f2f2f2;
+    color:              white;
+    opacity:            0.5;
     border:             5px;
     padding:            14px 16px;
     font-size:          125%;
@@ -106,8 +101,8 @@ h1,h2,h3,h4,h5,h6 {font-size:  225%;}
 
 .navbar a:hover {
     /*background-color:   #edd9c0;*/
-    color:              #000000;
-    -webkit-transition: color 1.5s;
+    opacity:            1;
+    -webkit-transition: opacity 1.5s;
 }
 
 form input {
@@ -125,4 +120,73 @@ form label {
     font-size:      110%;
 }
 
-.standard-margin-left {margin-left:    8%;}
+.standard-margin-left {margin-left: 8%;}
+
+.float-right {float:  right;}
+
+.internal-header {
+    margin-left: -2%;
+}
+
+.hero {
+    position:       absolute;
+    width:          100%;
+    margin-left:    0;
+    margin-top:     0;
+}
+
+.hero h1 {
+    color:          rgba(255,255,255,0.5);
+    font-size:      2000%;
+    text-transform: uppercase;
+    text-align:     center;
+    padding-top:     0%;
+}
+
+#home {
+    font-size:      1100%;
+    color:          rgba(255,255,255,0.5);
+    padding-top:    33%;
+    text-transform: uppercase;
+    text-align:     center;
+}
+
+#about-me {
+    padding-top:  28%;
+    font-size:    1750%;
+}
+
+#contact {
+    font-size:      1900%;
+    padding-top:    26%;
+}
+
+.button {
+    margin-top:     21%;
+    margin-left:    46%;
+}
+
+.btn {
+    border:             5px solid white;
+    color:              white;
+    opacity:            0.5;
+    background-color:   transparent;
+    text-decoration:    none;
+    padding:            1%;
+    font-size:          200%;
+}
+
+
+.btn:hover {
+    opacity:            1;
+    -webkit-transition: opacity 1.5s;
+}
+
+.icon-transparent {
+    opacity:    0.75;
+}
+
+.icon-transparent:hover {
+    opacity:            1;
+    -webkit-transition:  opacity 1.5s;
+}
